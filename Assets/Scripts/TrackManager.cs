@@ -25,6 +25,7 @@ public class TrackManager : MonoBehaviour
         for(int i=0;i<wallHolder.transform.childCount;i++)
         {
             wallRenderers.Add(wallHolder.transform.GetChild(i).gameObject.GetComponent<MeshRenderer>());
+            
         }
         colorChanger(); 
     }
