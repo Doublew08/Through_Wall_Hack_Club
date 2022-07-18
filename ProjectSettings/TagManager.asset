@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Gate
+  - Track
+  - Border
   layers:
   - Default
   - TransparentFX
