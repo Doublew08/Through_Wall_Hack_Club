@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     [SerializeField] internal Animator animator = null;
     [SerializeField] internal TrackManager activeTrackManager = null;
     private MeshRenderer activeGate = null;
+
+    //[SerializeField] private TrackManager track;
     // Start is called before the first frame update
     void Awake()
     {
